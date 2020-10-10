@@ -32,7 +32,7 @@
 			grid-template-columns: auto auto;
 			grid-gap: 20px;
 		}
-		.row4, .row5 {
+		.row4,{
 			width: 80%;
 			margin: 0 auto;
 			display: grid;
