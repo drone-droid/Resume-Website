@@ -126,14 +126,14 @@
 					<p>A course of 13 top notch soft skills</p>
 				</div>
 				<div>
+					<img src="MOC.jpg">
+					<p>Semi-Finalist of MOC</p>
+					<p>Master Orator Championship</p>
+				</div>
+				<div>
 					<img src="Smarticus.PNG">
 					<p>Secured 1st position in Smarticus</p>
 					<p>Apptitude Test </p>
-				</div>
-				<div>
-					<img src="MOC.JPG">
-					<p>Semi-Finalist of MOC</p>
-					<p>Master Orator Championship</p>
 				</div>
 			</div>
 		</div>
