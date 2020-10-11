@@ -110,7 +110,7 @@
 					<p>Humidity Calculator</p>
 				</div>
 				<div>
-					<img src="AI.jpg">
+					<img src="AI.JPG">
 					<p>Artificial Intelligence Course</p>
 					<p>Basics of AI Technology</p>
 				</div>
@@ -121,7 +121,7 @@
 <div class="wrap2">
 			<div class="row5">
 				<div>
-					<img src="Knock.jpg">
+					<img src="Knock.JPG">
 					<p>Knockdown the Lockdown</p>
 					<p>A course of 13 top notch soft skills</p>
 				</div>
@@ -131,7 +131,7 @@
 					<p>Apptitude Test </p>
 				</div>
 				<div>
-					<img src="MOC.jpg">
+					<img src="MOC.JPG">
 					<p>Semi-Finalist of MOC</p>
 					<p>Master Orator Championship</p>
 				</div>
