@@ -100,7 +100,7 @@
 <div class="wrap2">
 			<div class="row4">
 				<div>
-					<img src="Iot SP.jpg">
+					<img src="Iot SP.jpeg">
 					<p>ioT Smart Parking</p>
 					<p>A small contribution to mankind</p>
 				</div>
