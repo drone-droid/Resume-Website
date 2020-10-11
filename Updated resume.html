@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+	<head>
+		<title>My First HTML Page</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link rel = "icon" href =  
+                  "logo.jpg" 
+        type = "image/x-icon">   
+		<style>
+		* {
+			margin: 0;
+			font-family: Tahoma;
+		}
+		img {
+			max-width: 100%;
+		}
+		.wrap {
+		}
+		.img {
+			border-radius: 50%;
+			width: 100px;
+		}
+		.row1, .row2, .row6, .row7, .wrap1 {
+			background-color: #E9967A;
+		}
+		.row3, .row4, .row5, .row8, .wrap2 {
+			background-color: #FFF8DC;
+		}
+        .row1, .row7 {
+			width: 80%;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-gap: 20px;
+		}
+		.row4, .row5 {
+			width: 80%;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-gap: 20px;
+			padding-bottom: 30px;
+		}
+		.bgwhite {
+			background-color: #fff;
+		}
+		.bgblack {
+			background-color: #000;
+			color: #fff;
+		}
+		.alignright {
+			text-align: right;
+		}
+		.aligncenter {
+			text-align: center;
+		}
+		.row1, .pad20 {
+			padding: 20px;
+		}
+		.row2 a {
+			background-color: #F0F8FF;
+			color: #000;
+			padding: 10px 15px;
+			text-decoration: none;
+		}
+
+ @media only screen and (max-width:576px) {
+			.row1, .row7, .row4, .row5 {
+				grid-template-columns: auto;
+			}
+			.row1 div, .row7 div {
+				text-align: center;
+			}
+			.row7 div ul {
+				text-align: left;
+			}
+		}
+		</style>
+	
+	</head>
+<body>
+		<div class="wrap1">
+			<div class="row1">
+				<div><img src="deveshree.jpg" class="img"></div>
+				<div class="alignright pad20">
+					<h4>Deveshree Mishrekar</h4>
+					<p>C programmer<br>
+					Content Writter</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="row2 aligncenter pad20">
+				<a href="">Projects</a><a href="">About</a><a href="">Contact</a>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="row3 aligncenter pad20">
+				<h2>Projects/Skills/Acheivements</h2>
+			</div>
+		</div>
+<div class="wrap2">
+			<div class="row4">
+				<div>
+					<img src="Iot SP.jpg">
+					<p>ioT Smart Parking</p>
+					<p>A small contribution to mankind</p>
+				</div>
+				<div>
+					<img src="humidity.jpeg">
+					<p>Smart Irrigation System</p>
+					<p>Humidity Calculator</p>
+				</div>
+				<div>
+					<img src="AI.jpg">
+					<p>Artificial Intelligence Course</p>
+					<p>Basics of AI Technology</p>
+				</div>
+				
+			</div>
+		</div>
+
+<div class="wrap2">
+			<div class="row5">
+				<div>
+					<img src="Knock.jpg">
+					<p>Knockdown the Lockdown</p>
+					<p>A course of 13 top notch soft skills</p>
+				</div>
+				<div>
+					<img src="Smarticus.PNG">
+					<p>Secured 1st position in Smarticus</p>
+					<p>Apptitude Test </p>
+				</div>
+				<div>
+					<img src="MOC.jpg">
+					<p>Semi-Finalist of MOC</p>
+					<p>Master Orator Championship</p>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="row6 aligncenter pad20">
+				<h2>About Me</h2>
+			</div>
+		</div>
+<div class="wrap1">
+			<div class="row7">
+				<div class="bgwhite pad20">
+					<h4 class="aligncenter">Personal Details</h4>
+					<ul>
+						<li>Deveshree Mishrekar</li>
+						<li>DOB- 19/05/2001</li>
+						<li>PHONE- (+91)7587346889</li>
+						
+					</ul>
+				</div>
+				<div class="bgblack pad20">
+					<h4 class="aligncenter">Education</h4>
+					<ul>
+						<li>B.Tech-II CSE</li>
+						<li>C language</li>
+						<li>Content Writter</li>
+						<li>Leadership Quality</li>
+				        <li>Communication/Interactive skills</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="row8 aligncenter pad20">&copy; Copyright 2020.</div>
+		</div>
+	</body>
+</html>
