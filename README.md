@@ -22,7 +22,7 @@
 		.row1, .row2, .row6, .row7, .wrap1 {
 			background-color: #E9967A;
 		}
-		.row3, .row4, .row8, .wrap2 {
+		.row3, .row4, .row5, .row8, .wrap2 {
 			background-color: #FFF8DC;
 		}
         .row1, .row7 {
@@ -32,7 +32,7 @@
 			grid-template-columns: auto auto;
 			grid-gap: 20px;
 		}
-		.row4,{
+		.row4, .row5 {
 			width: 80%;
 			margin: 0 auto;
 			display: grid;
@@ -64,7 +64,7 @@
 		}
 
  @media only screen and (max-width:576px) {
-			.row1, .row7, .row4, {
+			.row1, .row7, .row4, .row5 {
 				grid-template-columns: auto;
 			}
 			.row1 div, .row7 div {
@@ -94,7 +94,7 @@
 		</div>
 		<div class="wrap">
 			<div class="row3 aligncenter pad20">
-				<h2>Projects/Experience</h2>
+				<h2>Projects/Skills/Acheivements</h2>
 			</div>
 		</div>
 <div class="wrap2">
@@ -109,11 +109,34 @@
 					<p>Smart Irrigation System</p>
 					<p>Humidity Calculator</p>
 				</div>
+				<div>
+					<img src="AI.jpg">
+					<p>Artificial Intelligence Course</p>
+					<p>Basics of AI Technology</p>
+				</div>
 				
 			</div>
 		</div>
 
-
+<div class="wrap2">
+			<div class="row5">
+				<div>
+					<img src="Knock.jpg">
+					<p>Knockdown the Lockdown</p>
+					<p>A course of 13 top notch soft skills</p>
+				</div>
+				<div>
+					<img src="Smarticus.PNG">
+					<p>Secured 1st position in Smarticus</p>
+					<p>Apptitude Test </p>
+				</div>
+				<div>
+					<img src="MOC.jpg">
+					<p>Semi-Finalist of MOC</p>
+					<p>Master Orator Championship</p>
+				</div>
+			</div>
+		</div>
 		<div class="wrap">
 			<div class="row6 aligncenter pad20">
 				<h2>About Me</h2>
@@ -131,7 +154,7 @@
 					</ul>
 				</div>
 				<div class="bgblack pad20">
-					<h4 class="aligncenter">Education/Skillset</h4>
+					<h4 class="aligncenter">Education</h4>
 					<ul>
 						<li>B.Tech-II CSE</li>
 						<li>C language</li>
