@@ -126,7 +126,7 @@
 					<p>A course of 13 top notch soft skills</p>
 				</div>
 				<div>
-					<img src="MOC.jpg">
+					<img src="MOC.JPG">
 					<p>Semi-Finalist of MOC</p>
 					<p>Master Orator Championship</p>
 				</div>
